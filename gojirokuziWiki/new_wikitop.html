@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="new_style.css">
+    <!-- <link rel="stylesheet" href="wiki.css"> -->
+      <script type="text/javascript" src="js/jquery-2.1.3.js"></script>
+    <title>にじさんじ非公式wiki</title>
+    <script type="text/javascript" src="js/lazeemenu/lazeemenu.css"></script>
+    <script type="text/javascript" src="js/lazeemenu/lazeemenu-jquery.js"></script>
+    <script>
+        $(function () {
+            $(document).ready(function () {
+                $('#menu-1').lazeemenu();
+            });
+
+            $(document).ready(function () {
+                $(".icon li h3 span").addClass("close");
+            })
+
+            $(".icon li h3 span").click(function(){
+                $(this).toggleClass("close");
+                $(this).toggleClass("open");
+            })
+        });
+
+    </script>
+
+    <div class="logo">
+        <a href="new_wikitop.html"><img src="img/5464_3.jpg" alt="ロゴ"></a>
+    </div>
+
+    <div class="menu">
+      <!-- <ul>
+        <li>ホーム</li>
+        <li>新規登録</li>
+        <li>ログイン</li>
+      </ul> -->
+
+    </div>
+  </head>
+
+  <body>
+    <div class=nav>
+      <!-- <nav>
+        <ul>
+          <li>top</li>
+        </ul>
+      </nav> -->
+    </div>
+
+    <div class="Area">
+      <!-- 右のAREA -->
+      <div class="leftArea">
+        <ul id="menu-1" class="icon">
+            <li>
+                <h3><span>一期生出身</span></h3>
+                <ul>
+                    <li><a href="./person/mito.html">月ノ美兎</a></li>
+                    <li><a href="./person/kaede.html">樋口楓</a></li>
+                    <li><a href="./person/rin.html">静凛</a></li>
+                    <li><a href="./person/moira.html">モイラ</a></li>
+                    <li><a href="./person/elu.html">える</a></li>
+                    <li><a href="./person/hajime.html">渋谷ハジメ</a></li>
+                    <li><a href="./person/chihiro.html">勇気ちひろ</a></li>
+                    <li><a href="./person/aki.php">鈴谷アキ</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><span>にじさんじゲーマーズ</span></h3>
+                <ul>
+                    <li><a href="./person/kanae.html">叶</a></li>
+                    <li><a href="./person/yoko.html">赤羽葉子</a></li>
+                    <li><a href="./person/saku.html">笹木咲</a></li>
+                    <li><a href="./person/yuika.html">椎名唯香</a></li>
+                    <li><a href="./person/kuzuha.html">葛葉</a></li>
+                    <li><a href="./person/himawari.html">本間ひまわり</a></li>
+                    <li><a href="./person/ririmu.html">魔界ノりりむ</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><span>統合後組</span></h3>
+                <ul>
+                    <li><a href="./person/toko.php">戌亥とこ</a></li>
+                    <li><a href="./person/roa.php">夢月ロア</a></li>
+                    <li><a href="./person/rituki.php">桜凛月</a></li>
+                    <li><a href="./person/shiba.html">黒井しば</a></li>
+                    <li><a href="./person/gwelu.html">グウェル・オス・ガール</a></li>
+                    <li><a href="./person/masiro.html">ましろ</a></li>
+                    <li><a href="./person/naraka.html">奈羅花</a></li>
+                    <li><a href="./person/natume.html">来栖夏芽</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><span>五十音順</span></h3>
+                <ul>
+                    <li><a href="/">愛園愛美</a></li>
+                    <li><a href="/">相羽ういは</a></li>
+                    <li><a href="/">赤羽葉子</a></li>
+                    <li><a href="/">飛鳥ひな</a></li>
+                    <li><a href="/">遠北千南</a></li>
+                    <li><a href="/">安土桃</a></li>
+                    <li><a href="/">天宮こころ</a></li>
+                    <li><a href="/">雨森小夜</a></li>
+                    <li><a href="/">アルス・アルマル</a></li>
+                    <li><a href="/">アンジュ・カトリーナ</a></li>
+                    <li><a href="/">家長むぎ</a></li>
+                    <li><a href="/">出雲霞</a></li>
+                    <li><a href="/">戌亥とこ</a></li>
+                    <li><a href="/">宇志海いちご</a></li>
+                    <li><a href="/">卯月コウ</a></li>
+                    <li><a href="/">エクス・アルビオ</a></li>
+                    <li><a href="/">えま☆おうがすと</a></li>
+                    <li><a href="/">エリー・コニファー</a></li>
+                    <li><a href="/">える</a></li>
+                    <li><a href="/">御伽原江良</a></li>
+                    <li><a href="/">小野町春香</a></li>
+                    <li><a href="/">加賀美ハヤト</a></li>
+                    <li><a href="/">語部紡</a></li>
+                    <li><a href="/">叶</a></li>
+                    <li><a href="/">神田笑一</a></li>
+                    <li><a href="/">ギルザレン三世</a></li>
+                    <li><a href="/">葛葉</a></li>
+                    <li><a href="/">来栖夏芽</a></li>
+                    <li><a href="person/shiba.html">黒井しば</a></li>
+                    <li><a href="person/gwelu.html">グウェル・オス・ガール</a></li>
+                    <li><a href="/">群道美玲</a></li>
+                    <li><a href="/">剣持刀也</a></li>
+                    <li><a href="/">三枝明那</a></li>
+                    <li><a href="/personrituki.php">桜凛月</a></li>
+                    <li><a href="/">笹木咲</a></li>
+                    <li><a href="/">椎名唯華</a></li>
+                    <li><a href="/">シェリン・バーガンディ</a></li>
+                    <li><a href="/">シスター・クレア</a></li>
+                    <li><a href="/">静凛</a></li>
+                    <li><a href="/">渋谷ハジメ</a></li>
+                    <li><a href="/">白雪巴</a></li>
+                    <li><a href="/">ジョー・力一</a></li>
+                    <li><a href="/">健屋花那</a></li>
+                    <li><a href="/">鈴鹿詩子</a></li>
+                    <li><a href="/">鈴木勝</a></li>
+                    <li><a href="/">鈴原るる</a></li>
+                    <li><a href="/">鈴谷アキ</a></li>
+                    <li><a href="/">瀬戸美夜子</a></li>
+                    <li><a href="/">鷹宮リオン</a></li>
+                    <li><a href="/">月ノ美兎</a></li>
+                    <li><a href="/">でびでび・でびる</a></li>
+                    <li><a href="/">轟京子</a></li>
+                    <li><a href="/">ドーラ</a></li>
+                    <li><a href="person/naraka.html">奈羅花</a></li>
+                    <li><a href="/">成瀬鳴</a></li>
+                    <li><a href="/">ニュイ・ソシエール</a></li>
+                    <li><a href="/">葉加瀬冬雪</a></li>
+                    <li><a href="/">花畑チャイカ</a></li>
+                    <li><a href="/">早瀬走</a></li>
+                    <li><a href="/">葉山舞鈴</a></li>
+                    <li><a href="/">春崎エアル</a></li>
+                    <li><a href="/">樋口楓</a></li>
+                    <li><a href="/">伏見ガク</a></li>
+                    <li><a href="/">フミ</a></li>
+                    <li><a href="/">文野環</a></li>
+                    <li><a href="/">不破湊</a></li>
+                    <li><a href="/">ベルモンド・バンデラス</a></li>
+                    <li><a href="/">星川サラ</a></li>
+                    <li><a href="/">本間ひまわり</a></li>
+                    <li><a href="/">舞元啓介</a></li>
+                    <li><a href="/">魔界ノりりむ</a></li>
+                    <li><a href="/">ましろ</a></li>
+                    <li><a href="/">町田ちま</a></li>
+                    <li><a href="/">魔使マオ</a></li>
+                    <li><a href="/">黛灰</a></li>
+                    <li><a href="person/moira.html">モイラ</a></li>
+                    <li><a href="/">物部有栖</a></li>
+                    <li><a href="/">森中花咲</a></li>
+                    <li><a href="/">矢車りね</a></li>
+                    <li><a href="/">社築</a></li>
+                    <li><a href="/">山神カルタ</a></li>
+                    <li><a href="/">勇気ちひろ</a></li>
+                    <li><a href="/">夕陽りり</a></li>
+                    <li><a href="/">雪城眞尋</a></li>
+                    <li><a href="/">夢月ロア</a></li>
+                    <li><a href="/">夢追翔</a></li>
+                    <li><a href="/">夜見れな</a></li>
+                    <li><a href="/">ラトナ・プティ</a></li>
+                    <li><a href="/">リゼ・ヘルエスタ</a></li>
+                    <li><a href="/">緑仙</a></li>
+                    <li><a href="/">竜胆尊</a></li>
+                    <li><a href="/">ルイス・キャミー</a></li>
+                    <li><a href="/">レヴィ・エリファ</a></li>
+                    <li><a href="/">童田明治</a></li>
+
+                </ul>
+            </li>
+        </ul>
+      </div>
+
+      <!-- MAINエリア -->
+      <div class="mainArea">
+
+        <div class = "f-container">
+
+         <div class ="example">
+         <a href="person/moira.html"><img src="img/Moira.png" alt="モイラ" width="158" height="auto" border="5">
+               <p>モイラ</p>
+             </div>
+
+        <div class ="example">
+            <a href="person/aki.php"><img src="img/Suzuya_Aki.png" alt="鈴谷アキ" width="158" height="auto" border="5"></a>
+               <p>鈴谷アキ</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/hajime.html"><img src="img/Shibuya_Hajime.png" alt="渋谷ハジメ" width="158" height="auto" border="5">
+               <p>渋谷ハジメ</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/kaede.html"><img src="img/Higuchi_Kaede.png" alt="樋口楓" width="158" height="auto" border="5">
+               <p>樋口楓</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/mito.html"><img src="img/Tsukino_Mito.png" alt="月ノ美兎" width="158" height="auto" border="5">
+               <p>月ノ美兎</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/chihiro.html"><img src="img/Yuuki_Chihiro.png" alt="勇気ちひろ" width="158" height="auto" border="5">
+               <p>勇気ちひろ</p>
+             </div>
+
+
+        <div class ="example">
+         <a href="person/rin.html"><img src="img/Shizuka_Rin.png" alt="静凛" width="158" height="auto" border="5">
+               <p>静凛</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/elu.html"><img src="img/Elu.png" alt="える" width="158" height="auto" border="5">
+               <p>える</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ienaga_Mugi.png" alt="家長むぎ" width="158" height="auto" border="5">
+               <p>家長むぎ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Yuuhi_Riri.png" alt="夕陽リリ" width="158" height="auto" border="5">
+               <p>夕陽リリ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Fushimi_Gaku.png" alt="伏見ガク" width="158" height="auto" border="5">
+               <p>伏見ガク</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Kenmochi_Touya.png" alt="剣持刀也" width="158" height="auto" border="5">
+               <p>剣持刀也</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Mononobe_Arisu.png" alt="物述有栖" width="158" height="auto" border="5">
+               <p>物述有栖</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ushimi_Ichigo.png" alt="宇志海いちご" width="158" height="auto" border="5">
+               <p>宇志海いちご</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Suzuka_Utako.png" alt="鈴鹿詩子" width="158" height="auto" border="5">
+               <p>鈴鹿詩子</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Giruzaren.png" alt="ギルザレンⅢ世" width="158" height="auto" border="5">
+               <p>ギルザレンⅢ世</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Fumino_Tamaki.png" alt="文野環" width="158" height="auto" border="5">
+               <p>文野環</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Kazaki_Morinaka.png" alt="森中花咲" width="158" height="auto" border="5">
+               <p>森中花咲</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/kanae.html"><img src="img/Kanae.png" alt="叶" width="158" height="auto" border="5">
+               <p>叶</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/yoko.html"><img src="img/Akabane_Youko.png" alt="赤羽葉子" width="158" height="auto" border="5">
+               <p>赤羽葉子</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Aduchi_Momo.png" alt="安土桃" width="158" height="auto" border="5">
+               <p>安土桃</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Uduki_Kou.png" alt="卯月コウ" width="158" height="auto" border="5">
+               <p>卯月コウ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Suzuki_Masaru.png" alt="鈴木勝" width="158" height="auto" border="5">
+               <p>鈴木勝</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ryushen.png" alt="緑仙" width="158" height="auto" border="5">
+               <p>緑仙</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Dola.png" alt="ドーラ" width="158" height="auto" border="5">
+               <p>ドーラ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Izumo_Kasumi.png" alt="出雲霞" width="158" height="auto" border="5">
+               <p>出雲霞</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Todoroki_Kyouko.png" alt="轟京子" width="158" height="auto" border="5">
+               <p>轟京子</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Sister_Cleaire.png" alt="シスター・クレア" width="158" height="auto" border="5">
+               <p>シスター・クレア</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Hanabatake_Chaika.png" alt="花畑チャイカ" width="158" height="auto" border="5">
+               <p>花畑チャイカ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Yashiro_Kizuku.png" alt="社築" width="158" height="auto" border="5">
+               <p>社築</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Harusaki_Earu.png" alt="春崎エアル" width="158" height="auto" border="5">
+               <p>春崎エアル</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Naruse_Naru.png" alt="成瀬鳴" width="158" height="auto" border="5">
+               <p>成瀬鳴</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/saku.html"><img src="img/Sasaki_Saku.png" alt="笹木咲" width="158" height="auto" border="5">
+               <p>笹木咲</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/himawari.html"><img src="img/Honma_Himawari.png" alt="本間ひまわり" width="158" height="auto" border="5">
+               <p>本間ひまわり</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/ririmu.html"><img src="img/Ririmu.png" alt="魔界ノりりむ" width="158" height="auto" border="5">
+               <p>魔界ノりりむ</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/kuzuha.html"><img src="img/Kuzuha.png" alt="葛葉" width="158" height="auto" border="5">
+               <p>葛葉</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/yuika.html"><img src="img/Shiina_Yuika.png" alt="椎名唯華" width="158" height="auto" border="5">
+               <p>椎名唯華</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Shouichi_Kanda.png" alt="神田笑一" width="158" height="auto" border="5">
+               <p>神田笑一</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Amemori_Sayo.png" alt="雨森小夜" width="158" height="auto" border="5">
+               <p>雨森小夜</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Takamiya_Rion.png" alt="鷹宮リオン" width="158" height="auto" border="5">
+               <p>鷹宮リオン</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Asuka_Hina.png" alt="飛鳥ひな" width="158" height="auto" border="5">
+               <p>飛鳥ひな</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Maimoto_Keisuke.png" alt="舞元啓介" width="158" height="auto" border="5">
+               <p>舞元啓介</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Rindou_Mikoto.png" alt="竜胆尊" width="158" height="auto" border="5">
+               <p>竜胆尊</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Devidevi_Devil.png" alt="でびでび・でびる" width="158" height="auto" border="5">
+               <p>でびでび・でびる</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/rituki.php"><img src="img/Ritsuki_Sakura.png" alt="桜凛月" width="158" height="auto" border="5">
+               <p>桜凛月</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Machida_Chima.png" alt="町田ちま" width="158" height="auto" border="5">
+               <p>町田ちま</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Tsukimi_Shizuku.png" alt="月見しずく" width="158" height="auto" border="5">
+               <p>月見しずく</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Jo_Rikiichi.png" alt="ジョー・力一" width="158" height="auto" border="5">
+               <p>ジョー・力一</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Achikita_Chinami.png" alt="遠北千南" width="158" height="auto" border="5">
+               <p>遠北千南</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Yumeoi_Kakeru.png" alt="夢追翔" width="158" height="auto" border="5">
+               <p>夢追翔</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/shiba.html"><img src="img/Kuroi_Shiba.png" alt="黒井しば" width="158" height="auto" border="5">
+               <p>黒井しば</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Yaguruma_Rine.png" alt="矢車りね" width="158" height="auto" border="5">
+               <p>矢車りね</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Belmondo_Banderasu.png" alt="ベルモンド・バンデラス" width="158" height="auto" border="5">
+               <p>ベルモンド・バンデラス</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Meiji_Warabeda.png" alt="童田明治" width="158" height="auto" border="5">
+               <p>童田明治</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/roa.php"><img src="img/Yuduki_Roa.png" alt="夢月ロア" width="158" height="auto" border="5">
+               <p>夢月ロア</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Gundou_Mirei.png" alt="" width="158" height="auto" border="5">
+               <p>郡道美玲</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Onomachi_Haruka.png" alt="小野町春香" width="158" height="auto" border="5">
+               <p>小野町春香</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Kataribe_Tumugu.png" alt="語部紡" width="158" height="auto" border="5">
+               <p>語部紡</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Seto_Miyako.png" alt="瀬戸美夜子" width="158" height="auto" border="5">
+               <p>瀬戸美夜子</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Otogibara_Era.png" alt="御伽原江良" width="158" height="auto" border="5">
+               <p>御伽原江良</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/toko.php"><img src="img/Inui_Toko.png" alt="戌亥とこ" width="158" height="auto" border="5">
+               <p>戌亥とこ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ange_Katrina.png" alt="アンジュ・カトリーナ" width="158" height="auto" border="5">
+               <p>アンジュ・カトリーナ</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Rize_Heruesta_hp.png" alt="リゼ・ヘルエスタ" width="158" height="auto" border="5">
+               <p>リゼ・ヘルエスタ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Saegusa_Akina.png" alt="三枝明那" width="158" height="auto" border="5">
+               <p>三枝明那</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Aizono_Manami.png" alt="愛園愛美" width="158" height="auto" border="5">
+               <p>愛園愛美</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Suzuhara_Lulu.png" alt="鈴原るる" width="158" height="auto" border="5">
+               <p>鈴原るる</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Yukishiro_Mahiro.png" alt="雪城眞尋" width="158" height="auto" border="5">
+               <p>雪城眞尋</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ex+Albio.png" alt="エクス・アルビオ" width="158" height="auto" border="5">
+               <p>エクス・アルビオ</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Levi+Elipha.png" alt="レヴィ・エリファ" width="158" height="auto" border="5">
+               <p>レヴィ・エリファ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Marin_Hayama.png" alt="葉山舞鈴" width="158" height="auto" border="5">
+               <p>葉山舞鈴</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Nui_Sociere.png" alt="ニュイ・ソシエール" width="158" height="auto" border="5">
+               <p>ニュイ・ソシエール</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Hakase_Fuyuki.png" alt="葉加瀬冬雪" width="158" height="auto" border="5">
+               <p>葉加瀬冬雪</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Kagami_Hayato.png" alt="加賀美ハヤト" width="158" height="auto" border="5">
+               <p>加賀美ハヤト</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Yorumi_Rena.png" alt="夜見れな" width="158" height="auto" border="5">
+               <p>夜見れな</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Mayuzumi_Kai.png" alt="黛灰" width="158" height="auto" border="5">
+               <p>黛灰</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ars_Almal.png" alt="アルス・アルマル" width="158" height="auto" border="5">
+               <p>アルス・アルマル</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Aiba_Uiha.png" alt="相羽ういは" width="158" height="auto" border="5">
+               <p>相羽ういは</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Kokoro_Amamiya.png" alt="天宮こころ" width="158" height="auto" border="5">
+               <p>天宮こころ</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Eli_Conifer.png" alt="エリー・コニファー" width="158" height="auto" border="5">
+               <p>エリー・コニファー</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Ratna_Petit.png" alt="ラトナ・プティ" width="158" height="auto" border="5">
+               <p>ラトナ・プティ</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Sou_Hayase.png" alt="早瀬走" width="158" height="auto" border="5">
+               <p>早瀬走</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Kana_Sukoya.png" alt="健屋花那" width="158" height="auto" border="5">
+               <p>健屋花那</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Shellin_Burgundy.png" alt="シェリン・バーガンディ" width="158" height="auto" border="5">
+               <p>シェリン・バーガンディ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Fumi.png" alt="フミ" width="158" height="auto" border="5">
+               <p>フミ</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Sara_Hoshikawa.png" alt="星川サラ" width="158" height="auto" border="5">
+               <p>星川サラ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Karuta_Yamagami.png" alt="山神カルタ" width="158" height="auto" border="5">
+               <p>山神カルタ</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Emma_August.png" alt="えま★おうがすと" width="158" height="auto" border="5">
+               <p>えま★おうがすと</p>
+             </div>
+
+        <div class ="example">
+         <a href=""><img src="img/Luis_Cammy.png" alt="ルイス・キャミー" width="158" height="auto" border="5">
+               <p>ルイス・キャミー</p>
+             </div>
+
+         <div class ="example">
+         <a href=""><img src="img/Mao_Matsukai.png" alt="魔使マオ" width="158" height="auto" border="5">
+               <p>魔使マオ</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/minato.html"><img src="img/Minato_Fuwa.png" alt="不破湊" width="158" height="auto" border="5">
+               <p>不破湊</p>
+             </div>
+
+         <div class ="example">
+         <a href="person/tomoe.html"><img src="img/Tomoe_Shirayuki.png" alt="白雪巴" width="158" height="auto" border="5">
+               <p>白雪巴</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/gwelu.html"><img src="img/Gwelu_Os_Gar.png" alt="グウェル・オス・ガール" width="158" height="auto" border="5">
+               <p>グウェル・オス・ガール</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/masiro.html"><img src="img/Mashiro.png" alt="ましろ" width="158" height="auto" border="5">
+               <p>ましろ</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/naraka.html"><img src="img/Naraka.png" alt="奈羅花" width="158" height="auto" border="5">
+               <p>奈羅花</p>
+             </div>
+
+        <div class ="example">
+         <a href="person/natume.html"><img src="img/Natsume_Kurusu.png" alt="来栖夏芽" width="158" height="auto" border="5">
+               <p>来栖夏芽</p>
+             </div>
+
+
+            </div>
+
+
+
+    <!-- 左のエリア -->
+      <!-- <div class="rightArea"><table border="1" width="100%"> -->
+        <!-- Twitterの埋め込み -->
+      <!-- <a class="twitter-timeline" data-width="300" data-height="1500" href="https://twitter.com/SAKURA_RITSUKI?ref_src=twsrc%5Etfw">Tweets by SAKURA_RITSUKI</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div> -->
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+table#bigframe {
+
+    width: 100%;
+}
+
+table#smallframe tr td{
+    border: none;
+}
+
+textarea{
+    height: 30px;
+    width:200%;
+}

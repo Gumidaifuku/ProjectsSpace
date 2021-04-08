@@ -1,0 +1,104 @@
+.Area{
+  display: flex;
+}
+
+
+/* flexの使用 */
+.leftArea{
+  /* width: 300px; */
+  flex-basis: 200px;
+}
+.mainArea{
+  flex: 1;
+}
+.rightArea{
+  /* width: 300px; */
+  flex-basis: 300px;
+}
+
+
+/* .logo{
+float: right;
+} */
+
+.in{
+  display: flex;
+}
+.youtube_1{
+  flex-direction: column;
+}
+.youtube_2{
+  flex-direction: column;
+}
+
+
+.icon {
+  list-style: none;
+}
+
+.icon li h3 .close::before{
+    content: "＋";
+}
+.icon li h3 .open::before{
+    content: "－";
+}
+
+
+.title_1{
+  padding: 8px 19px;
+  margin: 2em 0;
+  color: #2c2c2f;
+  background: #cde4ff;
+  border-top: solid 5px #5989cf;
+  text-align: center;
+  font-weight: 300;
+
+  margin: auto;
+  padding:inherit;
+}
+
+.main{
+}
+
+.maintable{
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.maintable tb{
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.example {
+       width: 168px;
+       position: relative;
+   }
+
+   .example p {
+       position: absolute;
+       left: 0;
+       bottom: 0.5em;
+       color: #fff;
+       margin: 0;
+       padding: 5px 0 5px 3%;
+    width: 97%;
+    background: #000;
+    filter: Alpha(opacity=70);
+    opacity: 0.7;
+       font-size: 13px;
+   }
+
+.example a{
+   text-decoration: none;
+}
+
+.example a:hover p{
+   text-decoration: underline;
+}
+
+.f-container {
+ display: flex;
+    flex-wrap:wrap;
+}
